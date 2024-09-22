@@ -1,0 +1,51 @@
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- dsisy ui link  -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                  }
+                }
+              }
+            }
+          </script>
+    
+</head>
+<body>
+    <header class="flex justify-center pt-8">
+        <div class="mockup-phone">
+            <div class="camera"></div>
+            <div class="display">
+              <div class="artboard artboard-demo phone-1">
+                <!-- phone content start -->
+                <div class="stats shadow">
+                    <div class="stat">
+                      <div class="stat-title">Total Ammount</div>
+                      <div class="stat-value">89,400</div>
+                      <div class="stat-desc">Available Balance</div>
+                    </div>
+                  </div>
+                <!-- phone content end -->
+                <div class="divider"></div>
+                <!-- user action button  -->
+                 <div>
+                    <button id="add-money" class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Add Money</button>
+
+                    <button id="cash-out" class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Cash Out</button>
+    
+                 </div>
+
+              </div>
+            </div>
+          </div>
+    </header>
+</body>
+</html>
